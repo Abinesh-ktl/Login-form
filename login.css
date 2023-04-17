@@ -1,0 +1,108 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+
+}
+section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(loginback.jpg);
+    background-position: center; /* Center the image */
+  /* Do not repeat the image */
+  background-size: cover;
+}
+.formbox
+{
+    
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 400px;
+    min-height: 450px;
+    background-image: linear-gradient(rgb(230 52 52 / 75%),rgba(0,0,0,0.75));
+}
+
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+}
+.inputbox
+{
+   
+    margin: 40px;
+    border-radius: 5px;
+    color: #fff;
+    
+}
+.inputbox input
+{
+    background: white;
+    border: none;
+    border-bottom: 1px solid #000000;
+    border-color: #fff;
+}
+.inputbox label{
+    padding-right: 5px;
+}
+.forget
+{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+   
+}
+.forget a{
+    text-decoration: none;
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+}
+.forget label
+{
+    padding: 4px;
+}
+button{
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 4vh;
+    margin-left: 20px;
+    font-weight: bold;
+
+}
+button :hover{
+    color: #000000;
+
+}
+.resister
+{
+    margin-top: 20px;
+    margin-left: 70px;
+    color: white;
+    text-decoration: none;
+
+
+}
+.resister a{
+    text-decoration: none;
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+
+}
+
+
+
